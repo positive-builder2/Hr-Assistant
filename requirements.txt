@@ -1,0 +1,16 @@
+python-dotenv
+
+langchain
+langchain-core
+langchain-community
+
+
+langchain-groq
+langchain-text-splitters
+
+faiss-cpu
+
+jupyter
+ipykernel
+
+streamlit
