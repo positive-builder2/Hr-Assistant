@@ -13,6 +13,8 @@ wheels/
 #env
 .env
 
+logs
+
 
 #faiss
 data/faiss_index
