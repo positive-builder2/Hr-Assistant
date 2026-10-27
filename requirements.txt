@@ -8,9 +8,14 @@ langchain-community
 langchain-groq
 langchain-text-splitters
 
-faiss-cpu
+#faiss-cpu
+langchain-qdrant
+qdrant-client
 
 jupyter
 ipykernel
 
 streamlit
+
+portkey-ai
+langchain-openai
