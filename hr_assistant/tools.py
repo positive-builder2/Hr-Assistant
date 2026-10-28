@@ -10,6 +10,6 @@ def create_search_tool(retriever):
         probation, notice period, reimbursement, code of conduct, holidays, or exit process."""
         logger.info("search_hr_policy called with query: %s",question)
         matching_chunks = retriever.invoke(question)
-        logger.info("Found Matching chunk(s)",len(matching_chunks))
+        logger.info("Found %d Matching chunk(s)",len(matching_chunks))
         return "\n\n".join(chunk.page_content for chunk in matching_chunks)
     return search_hr_policy

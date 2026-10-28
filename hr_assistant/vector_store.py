@@ -33,7 +33,7 @@ def load_vector_store(path:str = config.VECTOR_STORE_PATH):
     embeddings_model=get_embeddings_model()
     #logger.info("Loading FAISS index from '%s'",path)
     logger.info("Connecting to QDRANT cloud")
-    vector_store = QdrantVectorStore.from_documents(
+    vector_store = QdrantVectorStore.from_existing_collection(
             embedding=embeddings_model,
             url=config.QDRANT_URL,
             api_key=config.QDRANT_API_KEY,
