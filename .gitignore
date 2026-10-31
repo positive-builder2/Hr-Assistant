@@ -12,6 +12,7 @@ wheels/
 
 #env
 .env
+.env.docker
 
 logs
 
